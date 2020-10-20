@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Images</title>
+    <style>
+      #borderRadius{
+        border-radius: 50%;
+      }
+      #thumbnail{
+        border-radius: 4px;
+        border: 1px solid #000;
+        padding 5px;
+      }
+      #responsive{
+        max-width: 100%;
+        height: auto;
+      }
+      div.polaroid {
+        width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+      }
+
+      div.conatiner{
+        text-align: center;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    Border-Radius: <img id="borderRadius" src="img/navbar.png" /><br />
+    Thumbnail: <img id="thumbnail" src="img/navbar.png" /><br />
+    Responsive: <img id="responsive" src="img/navbar.png" /><br />
+    Polaroid Card:
+      <div class="polaroid">
+        <img src="img/navbar.png" />
+        <div class="container">
+          <p>Polarioid Card</p>
+  </body>
+</html>
